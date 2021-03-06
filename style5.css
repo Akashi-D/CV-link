@@ -1,0 +1,42 @@
+@media screen and (max-width: 680px){
+    #hide{
+        display: none;
+    }
+    #show{
+        margin-left: -200px;
+    }
+    #mini_btn{
+        display: block;
+    }
+    #home_img{
+        width: 150px;
+        height: 150px;
+    }
+    #intro{
+        margin: 0;
+    }
+    #intro h3{
+        letter-spacing: 0;
+    }
+    
+}
+
+@media screen and (max-width: 850px){
+    #intro{
+        margin: 0;
+    }
+     #home_img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1080px){
+    #intro h3{
+        letter-spacing: 0;
+    }
+    #intro h1{
+        font-size: 30px
+    }
+}
